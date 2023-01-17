@@ -1,0 +1,20 @@
+{
+    "name": "Funny Jokes",
+    "version": "0.0.1",
+    "manifest_version": 2,
+
+    "browser_action": {
+        "default_popup": "popup.html",  //this page will popup
+        "default_icon": "logo.png" 
+    },
+    "icons": {
+        "128": "logo.png"
+        //"64"
+
+    },
+
+    "permissions": ["activeTab"]
+}
+
+
+// chrome://extensions/
